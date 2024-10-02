@@ -9,7 +9,7 @@
 				<a href="/Collezione">Collezione</a>
 			</li>
 			<li>
-				<a href="/Librearia">Librearia</a>
+				<a href="/Librearia">Libreria</a>
 			</li>
 		</ul>
 	</div>
@@ -22,6 +22,14 @@
 		color: white;
 		padding: 10px;
 	}
+	nav a:hover {
+		width: 100%;
+		background-color: white;
+		color: black;
+		padding: 2px;
+		transition: 0.5s;
+	}
+
 	.container {
 		display: flex;
 	}
