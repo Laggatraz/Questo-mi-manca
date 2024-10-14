@@ -2,13 +2,22 @@
 	import Page from '../routes/+page.svelte';
 </script>
 
-<nav class="bg-[#3c6066] h-14">
-	<div class="flex justify-between items-center">
+<nav class="bg-[#173753] h-14 border-t-8 border-[#173753] border-x-8 text-white font-serif">
+	<div class="flex justify-between items-center mx-8">
 		<h1 class="text-2xl font-bold">Questo mi manca!</h1>
-		<div class="">
-			<a class="hover:text-red-500" href="/">Home</a>
-			<a class="hover:text-red-500" href="/collezione">Collezione</a>
-			<a class="hover:text-red-500 hover:bg-red-400" href="/about">About</a>
+		<div class="flex space-x-12 transition">
+			<a
+				class="hover:text-white hover:bg-cyan-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-tl-lg rounded-br-lg border-none border-2 px-2"
+				href="/">Home</a
+			>
+			<a
+				class="hover:text-white hover:bg-cyan-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-tl-lg rounded-br-lg border-none border-2 px-2"
+				href="/collezione">Collezione</a
+			>
+			<a
+				class="hover:text-white hover:bg-cyan-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-tl-lg rounded-br-lg border-none border-2 px-2"
+				href="/about">About</a
+			>
 		</div>
 	</div>
 </nav>
