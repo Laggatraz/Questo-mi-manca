@@ -3,13 +3,14 @@
 	var mangas = [
 		{ titolo: 'One Piece', autore: 'Eiichiro Oda', data: '22/07/1997', prezzo: '4,30' },
 		{ titolo: 'cvbfgh', autore: 'hgbvm', data: 'bazv', prezzo: 'ryen' },
-		{ titolo: 'Chainsaw Man', autore: 'Tatsuki Fujimoto', data: '"04/03/2019', prezzo: '5,20' }
+		{ titolo: 'Chainsaw Man', autore: 'Tatsuki Fujimoto', data: '04/03/2019', prezzo: '5,20' },
+		{ titolo: 'Chainsaw Man', autore: 'Tatsuki Fujimoto', data: '04/03/2019', prezzo: '5,20' }
 	];
 </script>
 
 <h1 class="text-3xl text-center uppercase">Benvenuti!</h1>
 
-<div class="p-10">
+<div class="p-16 grid grid-cols-4 gap-52">
 	{#each mangas as manga}
 		<CardManga
 			titolo={manga.titolo}
