@@ -7,10 +7,11 @@
 	export var voto: string = '10/10';
 </script>
 
-<main class="pb-4">
-	<div class="h-72 w-64 border-2 border-black rounded-lg flex flex-col overflow-hidden">
-		<div class="bg-orange-500 h-[60%] border-b-2 border-black">
-			<img src={immagine} alt="" />
+<main class="pb-4 grid gap-8 md:grid-cols-4">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<div class="h-72 w-64 border-2 border-black rounded-lg flex flex-col overflow-hidden md:flex">
+		<div class="bg-orange-500 h-[60%] border-b-2 border-black md:shrink">
+			<img class="w-full rounded-lg md:h-auto md:w-64" src={immagine} alt="" />
 		</div>
 		<div class="px-2 pt-1 flex flex-col justify-between h-[40%] bg-white border-t-2 border-black">
 			<div>

@@ -1,5 +1,11 @@
 <script lang="ts">
+	import { AnimeClient } from '@tutkli/jikan-ts';
+	import type { JikanResponse, Anime } from '@tutkli/jikan-ts';
 	import CardManga from '$lib/CardManga.svelte';
+	const animeClient = new AnimeClient();
+	animeClient.getAnimeById(1).then((response: JikanResponse<Anime>) => {
+		console.log(response);
+	});
 	var mangas = [
 		{
 			titolo: 'One Piece',
@@ -38,7 +44,7 @@
 
 <h1 class="text-3xl text-center uppercase">Benvenuti!</h1>
 
-<div class="p-16 grid grid-cols-4 gap-52">
+<div class="px-20 md:flex grid gap-52 md:grid-cols-4">
 	{#each mangas as manga}
 		<CardManga
 			titolo={manga.titolo}
@@ -55,4 +61,5 @@ Compiti: V Aggiungere copertine manga
          mettere tutto in una griglia
 		 creare una pagina descrizione del manga
 		 V aggiungere una variabile ranking
+		 mettere un icona al sito
 		 -->
