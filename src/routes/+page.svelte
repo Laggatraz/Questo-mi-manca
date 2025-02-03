@@ -38,13 +38,21 @@
 			prezzo: '5,50',
 			immagine: 'Berserk.jpg',
 			voto: '10/10'
+		},
+		{
+			titolo: 'Berserk Collection',
+			autore: 'Kentaro Miura',
+			data: '25/07/1989',
+			prezzo: '5,50',
+			immagine: 'Berserk.jpg',
+			voto: '10/10'
 		}
 	];
 </script>
 
 <h1 class="text-3xl text-center uppercase">Benvenuti!</h1>
 
-<div class="px-20 md:flex grid gap-52 md:grid-cols-4">
+<div class="grid grid-cols-2 place-items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
 	{#each mangas as manga}
 		<CardManga
 			titolo={manga.titolo}
@@ -58,7 +66,7 @@
 </div>
 <!--
 Compiti: V Aggiungere copertine manga
-         mettere tutto in una griglia
+         V mettere tutto in una griglia
 		 creare una pagina descrizione del manga
 		 V aggiungere una variabile ranking
 		 mettere un icona al sito
