@@ -1,3 +1,7 @@
+<script lang="ts">
+	let src = '/81hipaenXVL.jpg';
+</script>
+
 <div class="grid grid-cols-2 grid-rows-5 p-40">
 	<h1 class="border border-black p-16 col-span-2 text-5xl">ONE PIECE</h1>
 	<div class="border border-black p-10 row-span-4">
@@ -24,7 +28,9 @@
 		distinctio eos nesciunt, quae iure quia architecto eaque, ipsa officiis! Dignissimos soluta
 		aperiam, totam velit sequi repellat.
 	</div>
-	<div class="border border-black p-10 bg-indigo-400 row-span-2">COPERTINA</div>
-	<div class="border border-black p-10">DATA</div>
-	<div class="border border-black p-10">PREZZO</div>
+	<div class="border border-black bg-indigo-400 row-span-2">
+		<img {src} alt="copertina one piece" />
+	</div>
+	<div class="border border-black p-10">02/07/1997</div>
+	<div class="border border-black p-10">5,20</div>
 </div>
