@@ -2,9 +2,9 @@
 	let src = '/81hipaenXVL.jpg';
 </script>
 
-<div class="grid grid-cols-2 grid-rows-5 p-40">
-	<h1 class="border border-black p-16 col-span-2 text-5xl">ONE PIECE</h1>
-	<div class="border border-black p-10 row-span-4">
+<div class="grid grid-cols-2 grid-rows-3 p-40">
+	<h1 class=" col-span-2 text-5xl flex items-center justify-center">ONE PIECE</h1>
+	<div class=" p-10 row-span-4 text-2xl">
 		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ratione obcaecati accusantium
 		possimus alias sed optio voluptatem nisi vel assumenda quas earum hic iusto facere laboriosam,
 		et, incidunt aliquam architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
@@ -26,11 +26,18 @@
 		deserunt provident sed quibusdam cumque eos possimus, dolorem error. Voluptas in nemo obcaecati!
 		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid nobis unde tenetur quaerat
 		distinctio eos nesciunt, quae iure quia architecto eaque, ipsa officiis! Dignissimos soluta
-		aperiam, totam velit sequi repellat.
+		aperiam, totam velit sequi repellat. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+		Veniam, veritatis eos possimus autem, sint magnam recusandae vel, libero ipsum praesentium
+		aliquam minima quia vitae saepe assumenda aut. Neque, quidem molestias! Lorem ipsum dolor sit
+		amet consectetur adipisicing elit. Voluptatem quasi maxime repudiandae corporis voluptatum,
+		mollitia possimus culpa eveniet commodi accusamus quisquam perferendis iusto dolore voluptates
+		dolorum obcaecati explicabo cum non? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+		Rem ex sapiente distinctio eos maxime accusamus quia, deleniti odit in aperiam mollitia
+		recusandae quod harum itaque aspernatur amet nulla sit. Iusto?
 	</div>
-	<div class="border border-black bg-indigo-400 row-span-2">
+	<div class=" row-span-2">
 		<img {src} alt="copertina one piece" />
 	</div>
-	<div class="border border-black p-10">02/07/1997</div>
-	<div class="border border-black p-10">5,20</div>
+	<div class=" p-10">02/07/1997</div>
+	<div class=" p-10">5,20</div>
 </div>
